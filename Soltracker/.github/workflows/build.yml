@@ -17,6 +17,9 @@ jobs:
           export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
           brew install xcodegen
 
+      - name: Generate Xcode Project
+        run: xcodegen generate
+
       - name: Build App (No Signature)
         run: |
           xcodebuild clean build \
