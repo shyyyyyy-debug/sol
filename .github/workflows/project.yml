@@ -1,0 +1,13 @@
+name: SolTracker
+options:
+  bundleIdPrefix: com.soltracker
+targets:
+  SolTracker:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - AppMain.swift
+    info:
+      properties:
+        UILaunchScreen: {}
