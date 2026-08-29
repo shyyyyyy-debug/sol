@@ -7,7 +7,4 @@ targets:
     platform: iOS
     deploymentTarget: "16.0"
     sources:
-      - AppMain.swift
-    info:
-      properties:
-        UILaunchScreen: {}
+      - path: AppMain.swift
